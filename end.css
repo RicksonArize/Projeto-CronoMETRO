@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+    font-style: italic;
 }
 
 body{
@@ -8,7 +10,11 @@ body{
 }
 
 .div-titulo{
-    margin-top: 80px;
+    margin-top: 10px;
+}
+
+.div-titulo2{
+    margin-top: 20px;
 }
 
 .titulo{
@@ -17,18 +23,117 @@ body{
 }
 
 .div-logo{
-    border: red solid 1px;
-}
-
-.logo{
-
+    height: 150px;
 }
 
 .logo img{
-    width: 80px;
+    width: 130px;
     color: #CEE6F4;
+    margin-left: 20px;
+    float: left;
 }
 
-.timer{
+#timer{
+    margin-top: 20px;
+    margin-left: 468px;
+    color: #13d123;
+    float: left;
+    font-size: 110px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: -70px;
+  }
+  
+  .letra{
+    color: #13d123;
+    float: left;
+    font-size: 110px;
+   
+  }
 
+  .div-principal-lotacao{
+      margin-left: 180px;
+      margin-bottom: 20px;
+  }
+
+  .div-lotacao{
+      float: left;
+      height: 120px;
+      width: 250px;
+      margin-top: 10px;
+      margin-left: px;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+
+  .lotacao{
+      width: 200px;
+      height: 10px;
+      margin-top: 5px;
+      border-radius: 10px;
+      background-color: gray;
+  }
+
+  .clear{
+      clear: both
+  }
+
+  .div-metro{
+    height: 150px;
+  }
+
+  #metro{
+      position: absolute;
+      height: 150px;
+      width: 1200px;
+      margin: 0 80px;
+  }
+
+  #cd1{
+      position: absolute;
+      width: 21px;
+      height: 21px;
+      left: 273px;
+      margin-top: 61px;
+  }
+
+  #cd2{
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 1080px;
+    margin-top: 61px;
 }
+
+.div-letreiro{
+    height: 80px;
+    width: 1200px;
+    border-radius: 5px;
+    background-color: rgb(206, 206, 53);
+    margin: 20px auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.respect{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.verde{
+    width: 200px;
+    height: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: #13d123;
+}
+
+
+

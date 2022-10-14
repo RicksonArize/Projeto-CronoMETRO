@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/end.css">
+    <link rel="stylesheet" type="text/css" href="css/timer.css">
+    <script src="cronometro.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -20,32 +22,100 @@
             <img src="/imagens/logo.png" alt="logo">
         </div>
 
-        <div class="timer"></div>
-
+        <div id="timer">
+            <span class="linha">02:30</span>
+            <br> <br>
+            <input style="background-color: black; height: 100px;" type="button" value="Iniciar Contagem!" id="botaoIniciaContagem" onclick="contar()">
+        </div>
     </div>
 
-    <div class="div-titulo2"></div>
+    <div class="div-titulo2"><h1 class="titulo">LOTAÇÃO DO PRÓXIMO TREM</h1></div>
 
-    <div class="div-lotacao">
+    <div class="div-principal-lotacao">
         
 
-        <div class="lotacao"></div>
+        <div class="div-lotacao">
+            <div class="lotacao">
+            </div>
+            <div class="lotacao">
+            </div>
+            <div class="lotacao">
+            </div>
+            <div class="lotacao">
+            </div>
+            <div class="lotacao">
+            </div>
+            <div class="lotacao, verde">
+            </div>
+        </div>
 
-        <div class="lotacao"></div>
+        <div class="div-lotacao">
+            <div class="lotacao">
+            </div>
+            <div class="lotacao">
+            </div>
+            <div class="lotacao">
+            </div>
+            <div class="lotacao">
+            </div>
+            <div class="lotacao">
+            </div>
+            <div class="lotacao, verde">
+            </div>
+        </div>
+        
 
-        <div class="lotacao"></div>
+        <div class="div-lotacao">
+            <div class="lotacao">
+            </div>
+            <div class="lotacao">
+            </div>
+            <div class="lotacao">
+            </div>
+            <div class="lotacao">
+            </div>
+            <div class="lotacao">
+            </div>
+            <div class="lotacao, verde">
+            </div>
+        </div>
 
-        <div class="lotacao"></div>
+        <div class="div-lotacao">
+            <div class="lotacao">
+            </div>
+            <div class="lotacao">
+            </div>
+            <div class="lotacao">
+            </div>
+            <div class="lotacao">
+            </div>
+            <div class="lotacao">
+            </div>
+            <div class="lotacao, verde">
+            </div>
+        </div>
+
+        <div class="clear"></div>
 
     </div>
+    
 
     <div class="div-metro">
+
+        <img id="metro" src="imagens/metro.png" alt="metro">
+        <img id="cd1" src="imagens/cadeirante.png" alt="cadeirante1">
+        <img id="cd2" src="imagens/cadeirante.png" alt="cadeirante1">
 
     </div>
 
     <div class="div-seta"></div>
 
-    <div class="div-letreiro"></div>
+    <div class="div-letreiro"><span class="respect">RESPEITE A FAIXA AMARELA</span></div>
+
+
+
+    </script>
+
 
 </body>
 </html>
